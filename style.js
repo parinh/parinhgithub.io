@@ -12,94 +12,36 @@ let fridayButton = document.getElementById("friday-button");
 let fridayMessage = document.getElementById("friday-message");
 let saturdayButton = document.getElementById("saturday-button");
 let saturdayMessage = document.getElementById("saturday-message");
-let tableButton = document.getElementById("table-button");
-let tableMessage = document.getElementById("table-message");
 
+let mondayButton2 = document.getElementById("monday-button2");
+let tuesdayButton2 = document.getElementById("tuesday-button2");
+let wednesdayButton2 = document.getElementById("wednesday-button2");
+let thursdayButton2 = document.getElementById("thursday-button2");
+let fridayButton2 = document.getElementById("friday-button2");
+let saturdayButton2 = document.getElementById("saturday-button2");
+
+let subject1Button = document.getElementById("subject1-button");
+let subject1Message = document.getElementById("subject1-message")
+let subject2Button = document.getElementById("subject2-button");
+let subject2Message = document.getElementById("subject2-message")
+let subject3Button = document.getElementById("subject3-button");
+let subject3Message = document.getElementById("subject3-message")
+let subject4Button = document.getElementById("subject4-button");
+let subject4Message = document.getElementById("subject4-message")
+let subject5Button = document.getElementById("subject5-button");
+let subject5Message = document.getElementById("subject5-message")
+let subject6Button = document.getElementById("subject6-button");
+let subject6Message = document.getElementById("subject6-message")
+let subject7Button = document.getElementById("subject7-button");
+let subject7Message = document.getElementById("subject7-message")
+let subject8Button = document.getElementById("subject8-button");
+let subject8Message = document.getElementById("subject8-message")
+let subject9Button = document.getElementById("subject9-button");
+let subject9Message = document.getElementById("subject9-message")
+let subject10Button = document.getElementById("subject10-button");
+let subject10Message = document.getElementById("subject10-message")
 function showTableMessage(){
 
-    tableMessage.innerHTML = `
-    <div class="alert alert-dismissible fade show alert-danger" role="alert">
-    <table class=" table table-bordered table-responsive" style="text-align: center;background-color: black">
-    <thead>
-      <tr style="color: white">
-        <th scope="col"></th>
-        <th colspan="2" scope="col">8:00-9:00</th>
-        <th colspan="2" scope="col">9:00-10:00</th>
-        <th colspan="2" scope="col">10:00-11:00</th>
-        <th colspan="2" scope="col">11:00-12:00</th>
-        <th colspan="2" scope="col">12:00-13:00</th>
-        <th colspan="2" scope="col">13:00-14:00</th>
-        <th colspan="2" scope="col">14:00-15:00</th>
-        <th colspan="2" scope="col">15:00-16:00</th>
-        <th colspan="2" scope="col">16:00-17:00</th>
-        <th colspan="2" scope="col">17:00-18:00</th>
-        <th colspan="2" scope="col">18:00-19:00</th>
-    
-
-
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th style="background-color : yellow" scope="row">MONDAY</th>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-        <td style="background-color : blue ; color: white;" colspan="4">Computer Sience Project</td>
-        <td></td>
-      </tr>
-
-      <tr>
-        <th style="background-color : pink" scope="row">TUESDAY</th>
-        <td></td><td></td><td></td><td></td>
-        <td style="background-color : orange ; color: white;" colspan="4">Web Tech</td>
-        <td></td><td></td><td></td><td></td><td></td>
-        <td style="background-color : orange ; color: white;" colspan="4">Web Tech</td>
-        <td></td><td></td><td></td><td></td><td></td>
-
-      </tr>
-
-      <tr>
-        <th style="background-color : green;color: white" scope="row">WEDNESDAY</th>
-        <td></td><td></td><td></td><td></td>
-        <td style="background-color : blue ; color: white;" colspan="4">OS</td>
-        <td></td><td></td><td></td><td></td><td></td>
-        <td style="background-color : orange ; color: white;" colspan="3">IS</td>
-        <td></td><td></td><td></td><td></td><td></td><td></td>
-
-      </tr>
-      </tr>
-
-      <tr>
-        <th style="background-color : orange" scope="row">THURSDAY</th>
-        <td style="background-color : orange ; color: white;" colspan="4">SE</td>
-        <td></td><td></td>
-        <td style="background-color : orange ; color: white;" colspan="4">SE</td>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-
-      </tr>
-
-      <tr>
-        <th style="background-color : blue; color: white" scope="row">FRIDAY</th>
-        <td></td><td></td><td></td><td></td>
-        <td style="background-color : blue ; color: white;" colspan="4">OS</td>
-        <td></td><td></td><td></td><td></td><td></td>
-        <td style="background-color : orange ; color: white;" colspan="3">IS</td>
-        <td></td><td></td><td></td><td></td><td></td><td></td>
-
-      </tr>
-
-      <tr>
-        <th style="background-color : purple;color: white" scope="row">SATURDAY</th>
-        <td style="background-color : blue ; color: white;" colspan="8">ERP</td>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-
-      </tr>
-    </tbody>
-  </table>
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-  <span aria-hidden="true">&times;</span>
-</button>
-</div>`;
-}
 
 function showSundayMessage(){
     sundayMessage.innerHTML=`
@@ -166,12 +108,67 @@ function showSaturdayMessage(){
   </div>`
 }
 
+function showSubject1Message(){
+    subject1Message.innerHTML=`01418499 (200)`
+}
+
+function showSubject2Message(){
+    subject2Message.innerHTML=`01418442 (200)`
+}
+function showSubject3Message(){
+    subject3Message.innerHTML=`01418442 (200)`
+}
+function showSubject4Message(){
+    subject4Message.innerHTML=`01418331 (200)`
+}
+function showSubject5Message(){
+    subject5Message.innerHTML=`01418322 (200)`
+}
+function showSubject6Message(){
+    subject6Message.innerHTML=`01418471 (200)`
+}
+function showSubject7Message(){
+    subject7Message.innerHTML=`01418471 (200)`
+}
+function showSubject8Message(){
+    subject8Message.innerHTML=`01418331 (200)`
+}
+function showSubject9Message(){
+    subject9Message.innerHTML=`01418322 (200)`
+}
+function showSubject10Message(){
+    subject10Message.innerHTML=`01418342 (200)`
+}
+
 
 sundayButton.addEventListener("click",showSundayMessage);
+
 mondayButton.addEventListener("click",showMondayMessage);
+mondayButton2.addEventListener("click",showMondayMessage);
+
 tuesdayButton.addEventListener("click",showTuesdayMessage);
+tuesdayButton2.addEventListener("click",showTuesdayMessage);
+
 wednesdayButton.addEventListener("click",showWednesdayMessage);
+wednesdayButton2.addEventListener("click",showWednesdayMessage);
+
 thursdayButton.addEventListener("click",showThursdayMessage);
+thursdayButton2.addEventListener("click",showThursdayMessage);
+
 fridayButton.addEventListener("click",showFridayMessage);
+fridayButton2.addEventListener("click",showFridayMessage);
+
 saturdayButton.addEventListener("click",showSaturdayMessage);
-tableButton.addEventListener('click',showTableMessage);
+saturdayButton2.addEventListener("click",showSaturdayMessage);
+
+
+subject1Button.addEventListener("click",showSubject1Message);
+subject2Button.addEventListener("click",showSubject2Message);
+subject3Button.addEventListener("click",showSubject3Message);
+subject4Button.addEventListener("click",showSubject4Message);
+subject5Button.addEventListener("click",showSubject5Message);
+subject6Button.addEventListener("click",showSubject6Message);
+subject7Button.addEventListener("click",showSubject7Message);
+subject8Button.addEventListener("click",showSubject8Message);
+subject9Button.addEventListener("click",showSubject9Message);
+subject10Button.addEventListener("click",showSubject10Message);
