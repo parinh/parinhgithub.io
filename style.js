@@ -13,6 +13,7 @@ let fridayMessage = document.getElementById("friday-message");
 let saturdayButton = document.getElementById("saturday-button");
 let saturdayMessage = document.getElementById("saturday-message");
 
+
 let mondayButton2 = document.getElementById("monday-button2");
 let tuesdayButton2 = document.getElementById("tuesday-button2");
 let wednesdayButton2 = document.getElementById("wednesday-button2");
@@ -39,9 +40,9 @@ let subject8Message = document.getElementById("subject8-message")
 let subject9Button = document.getElementById("subject9-button");
 let subject9Message = document.getElementById("subject9-message")
 let subject10Button = document.getElementById("subject10-button");
-let subject10Message = document.getElementById("subject10-message")
-function showTableMessage(){
+let subject10Message = document.getElementById("subject10-message");
 
+    
 
 function showSundayMessage(){
     sundayMessage.innerHTML=`
@@ -80,6 +81,7 @@ function showWednesdayMessage(){
     </button>
   </div>`
 }
+
 function showThursdayMessage(){
     thursdayMessage.innerHTML=`
     <div class="alert alert-danger alert-dismissible fade show" role="alert" style="text-align: center">
@@ -89,6 +91,7 @@ function showThursdayMessage(){
     </button>
   </div>`
 }
+
 function showFridayMessage(){
     fridayMessage.innerHTML=`
     <div class="alert alert-danger alert-dismissible fade show" role="alert" style="text-align: center">
@@ -98,6 +101,7 @@ function showFridayMessage(){
     </button>
   </div>`
 }
+
 function showSaturdayMessage(){
     saturdayMessage.innerHTML=`
     <div class="alert alert-danger alert-dismissible fade show" role="alert" style="text-align: center">
@@ -160,7 +164,6 @@ fridayButton2.addEventListener("click",showFridayMessage);
 
 saturdayButton.addEventListener("click",showSaturdayMessage);
 saturdayButton2.addEventListener("click",showSaturdayMessage);
-
 
 subject1Button.addEventListener("click",showSubject1Message);
 subject2Button.addEventListener("click",showSubject2Message);
