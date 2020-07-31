@@ -15,10 +15,28 @@
     <body>
     <div class="container">
 
+        <div id="here" class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <a href="index.html"><button type="button" class="btn btn-danger">HOME</button></a>
+            <a href="page4.html" ><button type="button" class="btn btn-warning">SCHEDULE</button> </a>
+
+            <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CAT TYPE
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="page1.html">อเมริกันช็อตแฮร์</a>
+                    <a class="dropdown-item" href="page2.html">สก็อตติช โฟลด์</a>
+                    <a class="dropdown-item" href="page3.html">เมนคูน</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="shadow p-3 mb-5 rounded" style="background-color: rgb(252, 218, 223)">
         <h1 class="welcome font-PT "> ~ MEOW MEOW ~ </h1>
         <p></p>
-        <p id="here" class="font-Mali" style="font-size: 40px;color:#CA7B17;text-align: center;"> ยินดีต้อนรับสู่โลกของน้อนแมววว</p>
-        <br><br><br>
+        <p class="font-Mali" style="font-size: 40px;color:#CA7B17;text-align: center;"> ยินดีต้อนรับสู่โลกของน้อนแมววว</p>
+        </div>
+        <br>
         <p class="font-Mali">สวัสดีครับ ผมปาริญ ฮอปเปอร์ หัวข้อที่สนใจคือ "แมว" โดยเว็บไซต์นี้จะเลือก 3 อันดับพันธุ์แมวที่ชอบที่สุดครับบ </p>
         <br>
         <a href="pareena.html" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block">สำหรับคนที่ไม่ชอบแมว คลิ๊ก</button></a>
